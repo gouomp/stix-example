@@ -1,6 +1,6 @@
 # stix-example
 
-/_ description _/
+Structured Threat Information Expression (STIX™) real-world usage example.
 
 ## installation / usage
 
@@ -24,13 +24,13 @@ $ yarn build
 #### server
 
 ```
-/*...*/
+/* todo */
 ```
 
 #### web
 
 ```
-/*...*/
+/* todo */
 ```
 
 ## references

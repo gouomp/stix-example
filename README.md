@@ -9,7 +9,14 @@
 #### web
 
 ```
-/*...*/
+# producer-web catalog:
+$ cd ./producer/web
+
+# available commands:
+$ yarn install
+$ yarn start
+$ yarn prettier
+$ yarn build
 ```
 
 ### consumer

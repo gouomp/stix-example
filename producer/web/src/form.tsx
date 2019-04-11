@@ -1,4 +1,4 @@
-import React, { FormEventHandler, useMemo, useCallback, FormEvent, useState } from 'react';
+import React, { FormEvent, FormEventHandler, useCallback, useMemo, useState } from 'react';
 import styled from 'styled-components';
 import { Button, Form as AForm, Input, message, Typography } from 'antd';
 
@@ -7,13 +7,13 @@ const Styled = styled.div`
   padding: 24px;
 `;
 
-const FieldFactory = (getFieldDecorator: any) => ({ rules, inputProps, name }: any) => (
+const fieldFactory = (getFieldDecorator: any) => ({ rules, inputProps, name }: any) => (
   <AForm.Item label="Name">{getFieldDecorator(name, { rules })(<Input {...inputProps} />)}</AForm.Item>
 );
 
 const Form = ({ form: { getFieldDecorator, validateFieldsAndScroll, resetFields } }: any) => {
   const [loading, setLoading] = useState(false);
-  const Field = useMemo(() => FieldFactory(getFieldDecorator), [getFieldDecorator]);
+  const Field = useMemo(() => fieldFactory(getFieldDecorator), [getFieldDecorator]);
   const handleSubmit: FormEventHandler = useCallback(
     (e: FormEvent) => {
       e.preventDefault();

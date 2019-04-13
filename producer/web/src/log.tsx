@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getBundles } from './utils';
+import { Card } from 'antd';
 
-const List = () => {
+const Log = () => {
   const [loading, setLoading] = useState(true);
   const [bundles, setBundles] = useState([]);
 
@@ -15,7 +16,17 @@ const List = () => {
 
   if (loading) return <>"Loading"</>;
 
-  return <>{JSON.stringify(bundles, null, 2)}</>;
+  return (
+    <>
+      {bundles.map(bundle => (
+        <div>
+          <Card style={{ margin: '24px 0' }}>
+            <pre>{JSON.stringify(bundle, null, 4)}</pre>
+          </Card>
+        </div>
+      ))}
+    </>
+  );
 };
 
-export default List;
+export default Log;

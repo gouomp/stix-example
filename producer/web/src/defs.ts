@@ -1,9 +1,12 @@
 type identifier = string;
-type timestamp = Date;
+type timestamp = string;
 type integer = number;
 //?
 type openVocab = string;
-type killChainPhase = string;
+type killChainPhase = {
+  kill_chain_name: 'lockheed-martin-cyber-kill-chain';
+  phase_name: string;
+};
 
 export type StixObject = {
   type: string;
@@ -15,6 +18,53 @@ export type StixObject = {
   labels?: string[];
 };
 
+export const IdentityClassVocab: openVocab[] = ['individual', 'group', 'organization', 'class', 'unknown'];
+export const IndustrySectorVocab: openVocab[] = [
+  'agriculture',
+  'aerospace',
+  'automotive',
+  'communications',
+  'construction',
+  'defence',
+  'education',
+  'energy',
+  'entertainment',
+  'financial-services',
+  'government-national',
+  'government-regional',
+  'government-local',
+  'government-public-services',
+  'healthcare',
+  'hospitality-leisure',
+  'infrastructure',
+  'insurance',
+  'manufacturing',
+  'mining',
+  'non-profit',
+  'pharmaceuticals',
+  'retail',
+  'technology',
+  'telecommunications',
+  'transportation',
+  'utilities'
+];
+export const IndicatorLabelVocab: openVocab[] = [
+  'anomalous-activity',
+  'anonymization',
+  'benign',
+  'compromised',
+  'malicious-activity',
+  'attribution'
+];
+export const KillChainPhases: killChainPhase[] = [
+  { phase_name: 'reconnaissance', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'weaponization', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'delivery', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'exploitation', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'installation', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'command-and-control', kill_chain_name: 'lockheed-martin-cyber-kill-chain' },
+  { phase_name: 'actions-on-objectives', kill_chain_name: 'lockheed-martin-cyber-kill-chain' }
+];
 export type Identity = StixObject & {
   type: 'identity';
   name: string;

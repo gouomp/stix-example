@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Layout, Menu } from 'antd';
 import 'antd/dist/antd.css';
-import Form from './form';
-import List from './list';
+import Form from './form/form';
+import Log from './log';
 import { GlobalStyles, Wrapper } from './styles';
 
-const pages = [{ name: 'Form', component: Form }, { name: 'List', component: List }];
+const pages = [{ name: 'Form', component: Form }, { name: 'Log', component: Log }];
 
 const App = () => {
   const [page, setPage] = useState(0);

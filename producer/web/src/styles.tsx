@@ -5,9 +5,16 @@ export const GlobalStyles = createGlobalStyle`
   #root,
   body,
   .ant-layout {
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
+    background-color: gray;
+  }
+  .ant-form-item {
+    margin: 0;
+  }
+  .ant-btn-primary, h3.ant-typography {
+    margin-top: 24px;
   }
 `;
 

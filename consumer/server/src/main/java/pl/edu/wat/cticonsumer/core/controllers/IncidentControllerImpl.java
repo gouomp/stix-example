@@ -29,6 +29,7 @@ public class IncidentControllerImpl implements IncidentController {
 		this.incidentServiceImpl = incidentServiceImpl;
 	}
 
+	@CrossOrigin
 	@GetMapping("/find/{id}")
 	public ResponseEntity<IncidentDto> findIncident(@PathVariable String id) {
 		Incident incident = incidentServiceImpl.findIncident(id);
@@ -36,6 +37,7 @@ public class IncidentControllerImpl implements IncidentController {
 
 	}
 
+	@CrossOrigin
 	@GetMapping("/list")
 	public ResponseEntity<List<IncidentDto>> listIncident() {
 		List<Incident> incidents = incidentServiceImpl.listIncident();
@@ -45,12 +47,14 @@ public class IncidentControllerImpl implements IncidentController {
 		);
 	}
 
+	@CrossOrigin
 	@PostMapping("/register")
 	public ResponseEntity<SingleIdDto> registerIncident(@RequestBody IncidentDto incidentDto) {
 		String id = incidentServiceImpl.registerIncident(create(incidentDto));
 		return ResponseEntity.status(201).body(create(id));
 	}
 
+	@CrossOrigin
 	@DeleteMapping("/delete/{id}")
 	public void deleteIncident(@PathVariable String id) {
 		incidentServiceImpl.deleteIncident(id);

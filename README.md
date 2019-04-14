@@ -17,6 +17,15 @@ $ yarn install
 $ yarn start
 $ yarn prettier
 $ yarn build
+
+# heroku deploy
+$ pwd
+*/stix-example
+$ heroku create cti-producer-web --buildpack mars/create-react-app
+$ heroku git:remote -a cti-consumer-web
+$ git subtree push --prefix producer/web heroku master
+# or
+$ git push --force heroku `git subtree split --prefix producer/web HEAD`:master
 ```
 
 ### consumer
@@ -31,13 +40,22 @@ $ yarn build
 
 ```
 # consumer-web catalog:
-$ cd ./producer/web
+$ cd ./consumer/web
 
 # available commands:
 $ yarn install
 $ yarn start
 $ yarn prettier
 $ yarn build
+
+# heroku deploy
+$ pwd
+*/stix-example
+$ heroku create cti-consumer-web --buildpack mars/create-react-app
+$ heroku git:remote -a cti-consumer-web
+$ git subtree push --prefix consumer/web heroku master
+# or
+$ git push --force heroku `git subtree split --prefix consumer/web HEAD`:master
 ```
 
 ## references

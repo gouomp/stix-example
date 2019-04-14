@@ -12,9 +12,7 @@ type Props = {
 const Details = ({ bundle, back }: Props) => {
   const sighting = bundle.objects.find(x => x.type ==='sighting');
   const indicator = bundle.objects.find(x => x.type ==='indicator');
-  const notifier = bundle.objects[0];
-  console.log({notifier});
-  // const notifier = sighting ? bundle.objects.find(x => x.id === sighting.created_by_ref) : undefined;
+  const notifier = sighting ? bundle.objects.find(x => x.id === sighting.created_by_ref) : undefined;
   const suspect = indicator ? bundle.objects.find(x => x.id === indicator.created_by_ref) : undefined;
 
   return (

@@ -36,6 +36,7 @@ const prepareBundle = (values: any): Bundle => {
     id: `indicator-${uuidv4()}`,
     created: isoDate,
     modified: isoDate,
+    created_by_ref: suspect.name ? suspect.id : undefined,
     ...values.indicator,
     kill_chain_phases: killChainPhases
       ? killChainPhases.map((phase: string) => KillChainPhases.find(x => x.phase_name === phase))
@@ -48,6 +49,7 @@ const prepareBundle = (values: any): Bundle => {
     created: isoDate,
     modified: isoDate,
     sighting_of_ref: indicator.id,
+    created_by_ref: notifier.name ? notifier.id : undefined,
     ...values.sighting
   };
 

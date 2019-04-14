@@ -45,7 +45,7 @@ const Identity = ({ form: { getFieldDecorator }, name, label }: Props) => {
             )}
           </Item>
           <Item label="Sector">
-            {getFieldDecorator(`${name}.sector`)(
+            {getFieldDecorator(`${name}.sectors`)(
               <Select mode="multiple" defaultValue={[]}>
                 {IndustrySectorVocab.map(is => (
                   <Select.Option key={is} value={is}>

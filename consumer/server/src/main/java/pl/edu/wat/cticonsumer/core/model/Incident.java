@@ -20,14 +20,14 @@ public class Incident {
 
 	String type;
 	String id;
-	String specVersion;
+	String spec_version;
 	List<IncidentBody> objects;
 
 	public static Incident create(IncidentDto incidentDto) {
 		Incident incident = new Incident();
 		incident.setType(incidentDto.getType());
 		incident.setId(incidentDto.getId());
-		incident.setSpecVersion(incidentDto.getSpecVersion());
+		incident.setSpec_version(incidentDto.getSpec_version());
 		incident.setObjects(incidentDto.getObjects()
 				.stream()
 				.map(IncidentBody::create)

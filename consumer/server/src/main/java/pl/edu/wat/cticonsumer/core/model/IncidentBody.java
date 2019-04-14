@@ -22,19 +22,19 @@ public class IncidentBody {
 	String created;
 	String modified;
 	String name;
-	String identityClass;
+	String identity_class;
 	List<String> labels;
 	List<String> sectors;
-	String contactInformation;
-	String createdByRef;
+	String contact_information;
+	String created_by_ref;
 	String description;
 	String pattern;
-	String validFrom;
-	String firstSeen;
-	String lastSeen;
+	String valid_from;
+	String first_seen;
+	String last_seen;
 	Integer count;
-	String sightingOfRef;
-	List<String> whereSightedRefs;
+	String sighting_of_ref;
+	List<String> where_sighted_refs;
 
 	public static IncidentBody create(IncidentBodyDto incidentBodyDto) {
 		IncidentBody incidentBody = new IncidentBody();
@@ -43,19 +43,19 @@ public class IncidentBody {
 		incidentBody.setCreated(incidentBodyDto.getCreated());
 		incidentBody.setModified(incidentBodyDto.getModified());
 		incidentBody.setName(incidentBodyDto.getName());
-		incidentBody.setIdentityClass(incidentBodyDto.getIdentityClass());
+		incidentBody.setIdentity_class(incidentBodyDto.getIdentity_class());
 		incidentBody.setLabels(incidentBodyDto.getLabels());
 		incidentBody.setSectors(incidentBodyDto.getSectors());
-		incidentBody.setContactInformation(incidentBodyDto.getContactInformation());
-		incidentBody.setCreatedByRef(incidentBodyDto.getCreatedByRef());
+		incidentBody.setContact_information(incidentBodyDto.getContact_information());
+		incidentBody.setCreated_by_ref(incidentBodyDto.getCreated_by_ref());
 		incidentBody.setDescription(incidentBodyDto.getDescription());
 		incidentBody.setPattern(incidentBodyDto.getPattern());
-		incidentBody.setValidFrom(incidentBodyDto.getValidFrom());
-		incidentBody.setFirstSeen(incidentBodyDto.getFirstSeen());
-		incidentBody.setLastSeen(incidentBodyDto.getLastSeen());
+		incidentBody.setValid_from(incidentBodyDto.getValid_from());
+		incidentBody.setFirst_seen(incidentBodyDto.getFirst_seen());
+		incidentBody.setLast_seen(incidentBodyDto.getLast_seen());
 		incidentBody.setCount(incidentBodyDto.getCount());
-		incidentBody.setSightingOfRef(incidentBodyDto.getSightingOfRef());
-		incidentBody.setWhereSightedRefs(incidentBodyDto.getWhereSightedRefs());
+		incidentBody.setSighting_of_ref(incidentBodyDto.getSighting_of_ref());
+		incidentBody.setWhere_sighted_refs(incidentBodyDto.getWhere_sighted_refs());
 		return incidentBody;
 	}
 

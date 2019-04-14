@@ -20,19 +20,19 @@ public class IncidentBodyDto {
 	String created;
 	String modified;
 	String name;
-	String identityClass;
+	String identity_class;
 	List<String> labels;
 	List<String> sectors;
-	String contactInformation;
-	String createdByRef;
+	String contact_information;
+	String created_by_ref;
 	String description;
 	String pattern;
-	String validFrom;
-	String firstSeen;
-	String lastSeen;
+	String valid_from;
+	String first_seen;
+	String last_seen;
 	Integer count;
-	String sightingOfRef;
-	List<String> whereSightedRefs;
+	String sighting_of_ref;
+	List<String> where_sighted_refs;
 
 	public static IncidentBodyDto create(IncidentBody incidentBody) {
 		IncidentBodyDto incidentBodyDto = new IncidentBodyDto();
@@ -41,19 +41,19 @@ public class IncidentBodyDto {
 		incidentBodyDto.setCreated(incidentBody.getCreated());
 		incidentBodyDto.setModified(incidentBody.getModified());
 		incidentBodyDto.setName(incidentBody.getName());
-		incidentBodyDto.setIdentityClass(incidentBody.getIdentityClass());
+		incidentBodyDto.setIdentity_class(incidentBody.getIdentity_class());
 		incidentBodyDto.setLabels(incidentBody.getLabels());
 		incidentBodyDto.setSectors(incidentBody.getSectors());
-		incidentBodyDto.setContactInformation(incidentBody.getContactInformation());
-		incidentBodyDto.setCreatedByRef(incidentBody.getCreatedByRef());
+		incidentBodyDto.setContact_information(incidentBody.getContact_information());
+		incidentBodyDto.setCreated_by_ref(incidentBody.getCreated_by_ref());
 		incidentBodyDto.setDescription(incidentBody.getDescription());
 		incidentBodyDto.setPattern(incidentBody.getPattern());
-		incidentBodyDto.setValidFrom(incidentBody.getValidFrom());
-		incidentBodyDto.setFirstSeen(incidentBody.getFirstSeen());
-		incidentBodyDto.setLastSeen(incidentBody.getLastSeen());
+		incidentBodyDto.setValid_from(incidentBody.getValid_from());
+		incidentBodyDto.setFirst_seen(incidentBody.getFirst_seen());
+		incidentBodyDto.setLast_seen(incidentBody.getLast_seen());
 		incidentBodyDto.setCount(incidentBody.getCount());
-		incidentBodyDto.setSightingOfRef(incidentBody.getSightingOfRef());
-		incidentBodyDto.setWhereSightedRefs(incidentBody.getWhereSightedRefs());
+		incidentBodyDto.setSighting_of_ref(incidentBody.getSighting_of_ref());
+		incidentBodyDto.setWhere_sighted_refs(incidentBody.getWhere_sighted_refs());
 		return incidentBodyDto;
 	}
 

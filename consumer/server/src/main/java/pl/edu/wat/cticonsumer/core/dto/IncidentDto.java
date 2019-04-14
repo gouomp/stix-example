@@ -18,14 +18,14 @@ public class IncidentDto {
 
 	String type;
 	String id;
-	String specVersion;
+	String spec_version;
 	List<IncidentBodyDto> objects;
 
 	public static IncidentDto create(Incident incident) {
 		IncidentDto incidentDto = new IncidentDto();
 		incidentDto.setType(incident.getType());
 		incidentDto.setId(incident.getId());
-		incidentDto.setSpecVersion(incident.getSpecVersion());
+		incidentDto.setSpec_version(incident.getSpec_version());
 		incidentDto.setObjects(incident.getObjects()
 				.stream()
 				.map(IncidentBodyDto::create)

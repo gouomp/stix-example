@@ -30,7 +30,14 @@ $ yarn build
 #### web
 
 ```
-/* todo */
+# consumer-web catalog:
+$ cd ./producer/web
+
+# available commands:
+$ yarn install
+$ yarn start
+$ yarn prettier
+$ yarn build
 ```
 
 ## references

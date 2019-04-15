@@ -2,6 +2,10 @@
 
 Structured Threat Information Expression (STIX™) real-world usage example.
 
+**live demo:**
+ * producer - https://cti-producer-web.herokuapp.com/
+ * consumer - https://cti-consumer-web.herokuapp.com/
+
 ## installation / usage
 
 ### producer

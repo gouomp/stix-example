@@ -14,7 +14,7 @@ Write a program consisting of the producer module and the consumer module, listi
 
 #### 2.	Model for solution  
    
-   ![alt text](https://github.com/gouomp/stix-example/blob/master/model.png "Model") 
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/model_stix_example.png "Model") 
 
 #### 3.	Description of the model
   1. Producer side:

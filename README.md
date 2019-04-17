@@ -2,9 +2,9 @@
 ### FACULTY OF CYBERNETICS
    ![alt text](https://github.com/gouomp/stix-example/blob/master/logowat.png "Logo") 
 
-Subject
+###### Subject
 #### Quantitative methods for assessing the security of teleinformation systems
-Project
+###### Project
 #### Structured Threat Information Expression (STIX™) real-world usage example.
 
 ###### Group: K7B1S4

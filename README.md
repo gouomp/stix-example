@@ -26,6 +26,7 @@ Write a program consisting of the producer module and the consumer module, listi
   * C – database Redis – this database stores all data by KEY/VALUE thanks of that accumulating data is simpler and faster we can receive the response  
   * D – Web data visualization – this part of our application plays a role administration panel where Consumer can manage all notifications  
   * HTTP GET – The consumer sends a request to the server by HTTP GET method and he receives all data about some incidents in response.  
+  * HTTP DELETE - The consumer deletes registered incident
 #### 4.	Example scenario
 Example scenario consists of two cyber threat companies, Alpha and Beta, who share threat intelligence. A malicious URL was seen on Alpha’s network and an indicator was generated to capture this information. Alpha then shares this information with company Beta who later sees this indicator on their systems. Beta then creates a sighting of this indicator to share that this indicator has been spotted. Next Alpha can display all information about sighting noticed by Beta in administration panel.
 

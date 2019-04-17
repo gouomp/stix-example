@@ -1,6 +1,6 @@
-## Quantitative methods for assessing the security of teleinformation systems
-##### Project
-### Structured Threat Information Expression (STIX™) real-world usage example.
+## Structured Threat Information Expression (STIX™) real-world usage example 
+The project has been implemented as a part of laboratory classes of the subject: quantitative methods for assessing the security of teleinformation systems.
+
 #### 1.	Task and requirements  
 Write a program consisting of the producer module and the consumer module, listing CTI using the STIX threat description language.  
 

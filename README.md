@@ -1,6 +1,6 @@
 # MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
 ### FACULTY OF CYBERNETICS
-   ![alt text](https://github.com/gouomp/stix-example/blob/master/logo.png "Logo") 
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/logo1.png "Logo") 
 ###### Subject:
 #### Quantitative methods for assessing the security of teleinformation systems
 ###### Project

@@ -1,7 +1,3 @@
-# stix-example
-
-Structured Threat Information Expression (STIX™) real-world usage example.
-
 # MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
 
 ### FACULTY OF CYBERNETICS
@@ -10,6 +6,7 @@ Structured Threat Information Expression (STIX™) real-world usage example.
 #### Quantitative methods for assessing the security of teleinformation systems
 ###### Project
 #### STIX
+### Structured Threat Information Expression (STIX™) real-world usage example.
 
 ###### Group: K7B1S4
 ###### Team: A
@@ -17,7 +14,7 @@ Structured Threat Information Expression (STIX™) real-world usage example.
 #### 1.	Task and requirements  
 Write a program consisting of the producer module and the consumer module, listing CTI using the STIX threat description language.  
 
-   **Requirements:**  
+   **Requirements:**
   1. The application must implement selected few STIX elements.  
   2. The producer must allow CTI data entry.  
   3. Producer and consumer must display the received CTI.  
@@ -25,8 +22,10 @@ Write a program consisting of the producer module and the consumer module, listi
   5. Producer-consumer communication, interface, language, DB – any.  
   6. The application must simplify the functionality and interface.  
 
-#### 2.	Model for solution
- 
+#### 2.	Model for solution  
+   
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/model.png "Model") 
+
 #### 3.	Description of the model
 
   1. **Producer side:**  

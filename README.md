@@ -26,12 +26,12 @@ Write a program consisting of the producer module and the consumer module, listi
 
 #### 3.	Description of the model
 
-  **1. Producer side:**  
+  1. Producer side:  
   * A -Web form – the producer can fill a web form concerning the incidents have been founded in the organization  
   * Local storage – the producer can display his last reports in the browser  
   * HTTP POST – after filling and approval web form, it will be sent to the server by HTTP POST  
 
-  **2. Consumer side:**  
+  2. Consumer side:  
   * B – application server is written in JAVA Spring and servicing all requests from producer and consumer  
   * C – database Redis – this database stores all data by KEY/VALUE thanks of that accumulating data is simpler and faster we can receive the response  
   * D – Web data visualization – this part of our application plays a role administration panel where Consumer can manage all notifications  

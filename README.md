@@ -71,7 +71,17 @@ $ git push --force heroku `git subtree split --prefix producer/web HEAD`:master
 #### Server
 
 ```
-/* todo */
+# running application
+$ mvn spring-boot:run
+
+# heroku deploy
+$ pwd
+*/stix-example
+$ heroku create cti-consumer-server
+$ heroku git:remote -a cti-consumer-server
+$ git subtree push --prefix consumer/server heroku master
+# or
+$ git push --force heroku `git subtree split --prefix consumer/server HEAD`:master
 ```
 
 #### Web

@@ -1,7 +1,6 @@
 # MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
 ### FACULTY OF CYBERNETICS
-   ![alt text](https://github.com/gouomp/stix-example/blob/master/logowat.png "Logo") 
-
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/logowat.png "Logo")
 ###### Subject
 #### Quantitative methods for assessing the security of teleinformation systems
 ###### Project
@@ -46,16 +45,16 @@ Indicators on one organization's network are often spotted on other organization
 
 
 #### 5. Live demo:
- * producer - https://cti-producer-web.herokuapp.com/
- * consumer - https://cti-consumer-web.herokuapp.com/
+ * Producer - https://cti-producer-web.herokuapp.com/
+ * Consumer - https://cti-consumer-web.herokuapp.com/
 
 *****
 
 ## Installation / usage
 
-### producer
+### Producer
 
-#### web
+#### Web
 
 ```
 # producer-web catalog:
@@ -77,15 +76,15 @@ $ git subtree push --prefix producer/web heroku master
 $ git push --force heroku `git subtree split --prefix producer/web HEAD`:master
 ```
 
-### consumer
+### Consumer
 
-#### server
+#### Server
 
 ```
 /* todo */
 ```
 
-#### web
+#### Web
 
 ```
 # consumer-web catalog:
@@ -107,7 +106,7 @@ $ git subtree push --prefix consumer/web heroku master
 $ git push --force heroku `git subtree split --prefix consumer/web HEAD`:master
 ```
 
-## references
+## References
 
 - https://oasis-open.github.io/cti-documentation/
 - https://oasis-open.github.io/cti-documentation/examples/sighting-of-an-indicator?fbclid=IwAR2AP37MAE8XkF-YEYM97V7cWS2SEKFsIdpom2QMRYTCy5rweWMwSVXmH6w

@@ -16,13 +16,14 @@ Structured Threat Information Expression (STIX™) real-world usage example.
 
 #### 1.	Task and requirements  
 Write a program consisting of the producer module and the consumer module, listing CTI using the STIX threat description language.  
-**Requirements:**  
-1.1. The application must implement selected few STIX elements.  
-1.2. The producer must allow CTI data entry.  
-1.3. Producer and consumer must display the received CTI.  
-1.4. Producer and consumer, they must be on other computers.  
-1.5. Producer-consumer communication, interface, language, DB – any.  
-1.6. The application must simplify the functionality and interface.  
+
+   **Requirements:**  
+  1. The application must implement selected few STIX elements.  
+  2. The producer must allow CTI data entry.  
+  3. Producer and consumer must display the received CTI.  
+  4. Producer and consumer, they must be on other computers.  
+  5. Producer-consumer communication, interface, language, DB – any.  
+  6. The application must simplify the functionality and interface.  
 
 #### 2.	Model for solution
  

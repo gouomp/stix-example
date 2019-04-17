@@ -4,8 +4,7 @@
 ###### Subject:
 #### Quantitative methods for assessing the security of teleinformation systems
 ###### Project
-#### STIX
-## Structured Threat Information Expression (STIX™) real-world usage example.
+#### Structured Threat Information Expression (STIX™) real-world usage example.
 
 ###### Group: K7B1S4
 ###### Team: A

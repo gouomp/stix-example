@@ -1,12 +1,11 @@
 # MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
-
 ### FACULTY OF CYBERNETICS
-
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/logo.png "Logo") 
 ###### Subject:
 #### Quantitative methods for assessing the security of teleinformation systems
 ###### Project
 #### STIX
-### Structured Threat Information Expression (STIX™) real-world usage example.
+## Structured Threat Information Expression (STIX™) real-world usage example.
 
 ###### Group: K7B1S4
 ###### Team: A
@@ -41,7 +40,9 @@ Write a program consisting of the producer module and the consumer module, listi
 
 #### 4.	Example scenario
 Example scenario consists of two cyber threat companies, Alpha and Beta, who share threat intelligence. A malicious URL was seen on Alpha’s network and an indicator was generated to capture this information. Alpha then shares this information with company Beta who later sees this indicator on their systems. Beta then creates a sighting of this indicator to share that this indicator has been spotted. Next Alpha can display all information about sighting noticed by Beta in administration panel.
- 
+
+   ![alt text](https://github.com/gouomp/stix-example/blob/master/exampleModel.png "Example model") 
+
 Indicators on one organization's network are often spotted on other organizations' networks. When this is the case, a Sighting STIX Relationship Object (SRO) can be issued to relay that this specific indicator was seen. This example discusses how a company can use a Sighting for a STIX Indicator object.
 
 

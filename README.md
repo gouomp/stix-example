@@ -45,11 +45,13 @@ Example scenario consists of two cyber threat companies, Alpha and Beta, who sha
 Indicators on one organization's network are often spotted on other organizations' networks. When this is the case, a Sighting STIX Relationship Object (SRO) can be issued to relay that this specific indicator was seen. This example discusses how a company can use a Sighting for a STIX Indicator object.
 
 
-**live demo:**
+#### 5. Live demo:
  * producer - https://cti-producer-web.herokuapp.com/
  * consumer - https://cti-consumer-web.herokuapp.com/
 
-## installation / usage
+*****
+
+## Installation / usage
 
 ### producer
 

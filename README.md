@@ -2,7 +2,7 @@
 
 Structured Threat Information Expression (STIX™) real-world usage example.
 
-## MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
+# MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
 
 ### FACULTY OF CYBERNETICS
 
@@ -28,16 +28,16 @@ Write a program consisting of the producer module and the consumer module, listi
  
 ##### 3.	Description of the model
 
-  1.**Producer side:**
-  *A -Web form – the producer can fill a web form concerning the incidents have been founded in the organization
-  *Local storage – the producer can display his last reports in the browser
-  *HTTP POST – after filling and approval web form, it will be sent to the server by HTTP POST 
+  1. **Producer side:**
+  *A -Web form – the producer can fill a web form concerning the incidents have been founded in the organization  
+  *Local storage – the producer can display his last reports in the browser  
+  *HTTP POST – after filling and approval web form, it will be sent to the server by HTTP POST  
 
-  2.**Consumer side:**
-  *B – application server is written in JAVA Spring and servicing all requests from producer and consumer
-  *C – database Redis – this database stores all data by KEY/VALUE thanks of that accumulating data is simpler and faster we can receive the response
-  *D – Web data visualization – this part of our application plays a role administration panel where Consumer can manage all notifications
-  *HTTP GET – The consumer sends a request to the server by HTTP GET method and he receives all data about some incidents in response.
+  2. **Consumer side:**
+  *B – application server is written in JAVA Spring and servicing all requests from producer and consumer  
+  *C – database Redis – this database stores all data by KEY/VALUE thanks of that accumulating data is simpler and faster we can receive the response  
+  *D – Web data visualization – this part of our application plays a role administration panel where Consumer can manage all notifications  
+  *HTTP GET – The consumer sends a request to the server by HTTP GET method and he receives all data about some incidents in response.  
 
 ##### 4.	Example scenario
 Example scenario consists of two cyber threat companies, Alpha and Beta, who share threat intelligence. A malicious URL was seen on Alpha’s network and an indicator was generated to capture this information. Alpha then shares this information with company Beta who later sees this indicator on their systems. Beta then creates a sighting of this indicator to share that this indicator has been spotted. Next Alpha can display all information about sighting noticed by Beta in administration panel. 

@@ -1,14 +1,6 @@
-# MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
-### FACULTY OF CYBERNETICS
-   ![alt text](https://github.com/gouomp/stix-example/blob/master/logowat.png "Logo")
-###### Subject
-#### Quantitative methods for assessing the security of teleinformation systems
-###### Project
-#### Structured Threat Information Expression (STIX™) real-world usage example.
-
-###### Group: K7B1S4
-###### Team: A
-
+## Quantitative methods for assessing the security of teleinformation systems
+##### Project
+### Structured Threat Information Expression (STIX™) real-world usage example.
 #### 1.	Task and requirements  
 Write a program consisting of the producer module and the consumer module, listing CTI using the STIX threat description language.  
 

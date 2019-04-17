@@ -1,4 +1,4 @@
-<p align="justify"> # MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW </p>
+# MILITARY UNIVERSITY OF TECHNOLOGY IN WARSAW
 ### FACULTY OF CYBERNETICS
    ![alt text](https://github.com/gouomp/stix-example/blob/master/logowat.png "Logo") 
 ###### Subject:
